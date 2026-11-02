@@ -75,6 +75,3 @@ class TestVarasto(unittest.TestCase):
     def test_paljonko_mahtuu(self):
         self.varasto.lisaa_varastoon(7)
         self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 3)
-
-    def test_broken(self):
-        self.assertEqual(2, 3)
